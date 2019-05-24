@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Taller1"
+             x:Class="Taller1.MainPage">
+
+    <StackLayout Padding="0,10,10,10" Spacing="0" BackgroundColor="WhiteSmoke" >
+
+
+        <Label Text="Login"
+                    Font="20"
+                    TextColor="Aquamarine"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="80" 
+                    HeightRequest="27"
+                    ></Label>
+
+        <Entry x:Name="nom"
+                    Placeholder="Nombre"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+        <Entry x:Name="rt"
+                    Placeholder="Rut"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+        <Entry x:Name="em"
+                    Placeholder="Email"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+        <Entry x:Name="cont"
+                    Placeholder="Contraseña"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+        <Entry x:Name="contdos"
+                    Placeholder="Repetir contraseña"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="60"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+        <Button x:Name="loginButton" Clicked="LoginButton_Clicked"
+                    Text="Aceptar"
+                    BackgroundColor="Aquamarine"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                ></Button>
+    </StackLayout>
+</ContentPage>
